@@ -1,0 +1,136 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fdfdfd;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.todo-app {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2ecc71; /* emerald accent */
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  background: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #27ae60;
+}
+
+.instruction {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+li span {
+  flex: 1;
+  cursor: pointer;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+li.completed {
+  background: #f0f0f0;
+}
+
+/* Delete card container */
+.delete-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Delete button inside card */
+.delete-btn {
+  background: transparent;
+  color: #666; /* neutral by default */
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background: #ff4d4d;
+  color: #fff;
+}
+
+.delete-btn:focus,
+button:focus,
+input:focus {
+  outline: 2px solid #2ecc71;
+  outline-offset: 2px;
+}
