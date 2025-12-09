@@ -14,10 +14,10 @@ Try the live app here: https://kngflow-kaylee.github.io/Todo-List-App
 - ♿ Accessibility: skip links, ARIA labels, focus outlines
 
 ## 📸 Screenshots
-![Light Mode](assets_screenshots/screenshot-light.png)  
-![Dark Mode](assets_screenshots/screenshot-dark.png)  
-![Drag & Drop](assets_screenshots/screenshot-reorder.png)  
-![Completed Task](assets_screenshots/screenshot-completed.png)
+![Light Mode](screenshot-light.png)  
+![Dark Mode](screenshot-dark.png)  
+![Drag & Drop](screenshot-reorder.png)  
+![Completed Task](screenshot-completed.png)
 
 ## 📦 Installation
 1. Download or clone the repo.
