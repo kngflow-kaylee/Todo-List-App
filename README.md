@@ -19,10 +19,5 @@ Try the live app here: https://kngflow-kaylee.github.io/Todo-List-App
 ![Drag & Drop](screenshot-reorder.png)  
 ![Completed Task](screenshot-completed.png)
 
-## 📦 Installation
-1. Download or clone the repo.
-2. Open `index.html` in your browser.
-3. Start adding tasks!
-
 ## 📜 License
 See [LICENSE](LICENSE.txt) for details.
